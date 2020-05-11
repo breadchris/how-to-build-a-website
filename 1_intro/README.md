@@ -2,11 +2,6 @@
 
 ## What are websites?
 
-* Inspect network traffic of a page loading
-* Identify the HTML of the page being loaded
-* Identify HTTP headers
-* Identify backend calls being made
-
 ### HTML, CSS, JS
 
 #### HTML
@@ -49,6 +44,12 @@ HyperText Transfer Protocol
 The protocol for servers and clients to communicate with each other. More on this later.
 
 If you are so inclined to read this: [RFC](https://tools.ietf.org/html/rfc2616) you will be rewarded with endless HTTP knowledge.
+
+#### Inspecting network traffic
+
+In your browser you can typically right click on a page and find an option that says "Inspect" or "Development Tools" and this will let you take a look under the hood.
+
+In this view, there is usually a "Network" tab that you can go to and see what your browser is doing every time you load a page.
 
 ## Introduction to Flask
 
