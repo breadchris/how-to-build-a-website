@@ -16,6 +16,10 @@ HEAD, PUT, DELETE, CONNECT, OPTIONS, TRACE, PATCH
 
 [more info](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
+### Testing HTTP methods against your website
+
+[API Tester](https://apitester.com/) or [curl](https://curl.haxx.se/docs/manual.html) (you should get comfortable with using curl, it is such a useful tool
+
 ## HTML
 
 Flask [rendering templates](https://flask.palletsprojects.com/en/1.1.x/quickstart/#rendering-templates)
