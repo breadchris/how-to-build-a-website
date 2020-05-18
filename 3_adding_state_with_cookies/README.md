@@ -50,6 +50,10 @@ def logout():
     return redirect(url_for('index'))
 ```
 
+## Flashing messages
+
+[Documentation](https://flask.palletsprojects.com/en/1.1.x/patterns/flashing/#simple-flashing)
+
 ## Homework
 
 Create a registration page
