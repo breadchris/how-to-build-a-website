@@ -1,5 +1,15 @@
 # Adding state to an otherwise stateless protocol
 
+But first some loose ends...
+
+## Static Files
+
+[Documentation](https://flask.palletsprojects.com/en/1.1.x/tutorial/static/)
+
+## Flashing messages
+
+[Documentation](https://flask.palletsprojects.com/en/1.1.x/patterns/flashing/#simple-flashing)
+
 ## HTTP is 'stateless'
 
 When you are talking with someone in a conversation, there is a context in which you are talking. For example, if someone earlier in the converstaion mentions they "like cats", you can use the phrase "thing you like" to refer to the fact that they "like cats". 
@@ -49,10 +59,6 @@ def logout():
     session.pop('username', None)
     return redirect(url_for('index'))
 ```
-
-## Flashing messages
-
-[Documentation](https://flask.palletsprojects.com/en/1.1.x/patterns/flashing/#simple-flashing)
 
 ## Homework
 
