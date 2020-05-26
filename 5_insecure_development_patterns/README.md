@@ -11,7 +11,7 @@ https://repl.it/@cthompson4321/insecure-direct-object-reference-python
 https://repl.it/@cthompson4321/properly-parse-urls-python
 
 # Cross site scripting
-https://repl.it/@cthompson4321/template-injection-python
+https://repl.it/@cthompson4321/cross-site-scripting-python
 
 # Mystery Challenge
 https://repl.it/@breadchris/htbaw-security-challenge
