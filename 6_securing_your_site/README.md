@@ -20,7 +20,7 @@ with engine.connect() as con:
 
 ## Password Hashing
 
-Websites are hacked [all the time]()https://haveibeenpwned.com/), it is important when you are storing a user's information that you are handling it as securely as possible.
+Websites are hacked [all the time](https://haveibeenpwned.com/), it is important when you are storing a user's information that you are handling it as securely as possible.
 
 Hashes are one way functions which are supposed to maintain the input level of entropy, but often change the size of the input data. These functions are also deterministic, meaning for a given input, there is always the same output. However, a one to one mapping of output to input is not guarunteed.
 
