@@ -26,6 +26,9 @@ Hashes are one way functions which are supposed to maintain the input level of e
 
 Of course with this property of a hash function, [hash collision research](https://shattered.io/) is a thing and a concern for a lot of people who rely on hashes to associate unique values with some identity (such as passwords).
 
+
+[flask-bcrypt](https://flask-bcrypt.readthedocs.io/en/latest/)
+
 ### Brute forcing passwords
 
 Password reuse - On another site, a user could be using the same password. When that other site is breached, the hacker can try that password on other sites.
@@ -36,9 +39,6 @@ Never double hash your passwords, that does not make them more secure.
 
 The best passwords look like: [Horse battery staple correct](https://xkcd.com/936/)
 
-
-[flask-bcrypt](https://flask-bcrypt.readthedocs.io/en/latest/)
-
 ## 2-Factor Authentication
 
 In the case that a hacker is able to reuse a password from another site, 2-factor authentication can thwart their ability to do anything.
@@ -46,6 +46,8 @@ In the case that a hacker is able to reuse a password from another site, 2-facto
 [Google Account Hygine](https://security.googleblog.com/2019/05/new-research-how-effective-is-basic.html)
 
 Let's try implementing a [Time-based One-time Password](https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm) in our login flow.
+
+[Adding two factor authentication in Flask](https://blog.miguelgrinberg.com/post/two-factor-authentication-with-flask)
 
 ## Forgot password
 
